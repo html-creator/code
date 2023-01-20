@@ -1,11 +1,16 @@
-<style type="text/css">
-		body {
 
+<h1>masz<h1>
+document.getElementById("[id]").value = [zmienna];
+<h2>awokado<h2>
+<button onclick="save()">zapisz</button>
+<button onclick="load()">załaduj</button>
 
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			height: 100vh;
-			background: #000;
-		}
-</style>
+function save() {
+LocalStorage.setItem("kliki", [zmienna]);
+}
+
+function load() {
+[zmienna] = LocalStorage.getItem("kliki");
+[zmienna] = parseInt([zmienna])
+document.getElementById("[id]").value = [zmienna];
+}
