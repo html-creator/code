@@ -1,3 +1,4 @@
+<style type="text/css">
 		body {
 
 
@@ -7,6 +8,4 @@
 			height: 100vh;
 			background: #000;
 		}
-
-
-
+</style>
